@@ -1,0 +1,223 @@
+The system is: Darwin - 15.6.0 - x86_64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpif90 
+Build flags: 
+Id flags: -v
+
+The output was:
+0
+Driving: /usr/local/bin/gfortran -v CMakeFortranCompilerId.F -I/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/include -Wl,-flat_namespace -Wl,-commons,use_dylibs -I/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -mmacosx-version-min=10.11.6 -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/lto-wrapper
+Target: x86_64-apple-darwin15.5.0
+Configured with: ../configure --build=x86_64-apple-darwin15.5.0 --prefix=/usr/local/Cellar/gcc/6.1.0 --libdir=/usr/local/Cellar/gcc/6.1.0/lib/gcc/6 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-6 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 6.1.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --enable-plugin --disable-nls --enable-multilib
+Thread model: posix
+gcc version 6.1.0 (Homebrew gcc 6.1.0) 
+COLLECT_GCC_OPTIONS='-v' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/include' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-mmacosx-version-min=10.11.6' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/var/folders/3x/3xjwh099297110zbv3fd3sfc0000gt/T//ccTvgA0F.f90 -quiet -v -I /Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/include -I /Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -D__DYNAMIC__ CMakeFortranCompilerId.F -fPIC -quiet -dumpbase CMakeFortranCompilerId.F -mmacosx-version-min=10.11.6 -mtune=core2 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/finclude -o /var/folders/3x/3xjwh099297110zbv3fd3sfc0000gt/T//ccmFbiFl.s
+GNU Fortran (Homebrew gcc 6.1.0) version 6.1.0 (x86_64-apple-darwin15.5.0)
+	compiled by GNU C version 6.1.0, GMP version 6.1.0, MPFR version 3.1.4-p1, MPC version 1.0.3, isl version 0.15
+warning: MPFR header version 3.1.4-p1 differs from library version 3.1.3-p2.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../../../../../x86_64-apple-darwin15.5.0/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/include
+ /Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib
+ /usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/finclude
+ /usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/include
+ /usr/local/include
+ /usr/local/Cellar/gcc/6.1.0/include
+ /usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU Fortran2008 (Homebrew gcc 6.1.0) version 6.1.0 (x86_64-apple-darwin15.5.0)
+	compiled by GNU C version 6.1.0, GMP version 6.1.0, MPFR version 3.1.4-p1, MPC version 1.0.3, isl version 0.15
+warning: MPFR header version 3.1.4-p1 differs from library version 3.1.3-p2.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/include' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-mmacosx-version-min=10.11.6' '-shared-libgcc' '-mtune=core2'
+ as -arch x86_64 -force_cpusubtype_ALL -o /var/folders/3x/3xjwh099297110zbv3fd3sfc0000gt/T//ccj2I8HW.o /var/folders/3x/3xjwh099297110zbv3fd3sfc0000gt/T//ccmFbiFl.s
+Reading specs from /usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../../libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/include' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-mmacosx-version-min=10.11.6' '-shared-libgcc' '-mtune=core2'
+COMPILER_PATH=/usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/:/usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/:/usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/:/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/:/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/
+LIBRARY_PATH=/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/:/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/include' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-mmacosx-version-min=10.11.6' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o a.out -L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -L/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0 -L/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../.. /var/folders/3x/3xjwh099297110zbv3fd3sfc0000gt/T//ccj2I8HW.o -flat_namespace -commons use_dylibs -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 6.1.0
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o a.out -L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -L/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0 -L/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../.. /var/folders/3x/3xjwh099297110zbv3fd3sfc0000gt/T//ccj2I8HW.o -flat_namespace -commons use_dylibs -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-264.3.102
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib
+	/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0
+	/usr/local/Cellar/gcc/6.1.0/lib/gcc/6
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ /usr/bin/nm -n /var/folders/3x/3xjwh099297110zbv3fd3sfc0000gt/T//ccj2I8HW.o
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/3.4.3/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_0c343/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_0c343.dir/build.make CMakeFiles/cmTC_0c343.dir/build
+gmake[1]: Entering directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_0c343.dir/testFortranCompiler.f.o
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpif90     -c /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_0c343.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_0c343
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c343.dir/link.txt --verbose=1
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpif90       CMakeFiles/cmTC_0c343.dir/testFortranCompiler.f.o  -o cmTC_0c343  
+gmake[1]: Leaving directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_7e803/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_7e803.dir/build.make CMakeFiles/cmTC_7e803.dir/build
+gmake[1]: Entering directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_7e803.dir/CMakeFortranCompilerABI.F.o
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpif90     -c /Applications/CMake.app/Contents/share/cmake-3.4/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_7e803.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTC_7e803
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e803.dir/link.txt --verbose=1
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpif90    -v -Wl,-v   CMakeFiles/cmTC_7e803.dir/CMakeFortranCompilerABI.F.o  -o cmTC_7e803   
+Driving: /usr/local/bin/gfortran -v -Wl,-v CMakeFiles/cmTC_7e803.dir/CMakeFortranCompilerABI.F.o -o cmTC_7e803 -I/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/include -Wl,-flat_namespace -Wl,-commons,use_dylibs -I/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -mmacosx-version-min=10.11.6 -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/lto-wrapper
+Target: x86_64-apple-darwin15.5.0
+Configured with: ../configure --build=x86_64-apple-darwin15.5.0 --prefix=/usr/local/Cellar/gcc/6.1.0 --libdir=/usr/local/Cellar/gcc/6.1.0/lib/gcc/6 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-6 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 6.1.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --enable-plugin --disable-nls --enable-multilib
+Thread model: posix
+gcc version 6.1.0 (Homebrew gcc 6.1.0) 
+Reading specs from /usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../../libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7e803' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/include' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-mmacosx-version-min=10.11.6' '-shared-libgcc' '-mtune=core2'
+COMPILER_PATH=/usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/:/usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/:/usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/:/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/:/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/
+LIBRARY_PATH=/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/:/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7e803' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/include' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-mmacosx-version-min=10.11.6' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o cmTC_7e803 -L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -L/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0 -L/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../.. -v CMakeFiles/cmTC_7e803.dir/CMakeFortranCompilerABI.F.o -flat_namespace -commons use_dylibs -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 6.1.0
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o cmTC_7e803 -L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -L/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0 -L/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../.. -v CMakeFiles/cmTC_7e803.dir/CMakeFortranCompilerABI.F.o -flat_namespace -commons use_dylibs -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-264.3.102
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+@(#)PROGRAM:ld  PROJECT:ld64-264.3.102
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib
+	/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0
+	/usr/local/Cellar/gcc/6.1.0/lib/gcc/6
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ /usr/bin/nm -n CMakeFiles/cmTC_7e803.dir/CMakeFortranCompilerABI.F.o
+gmake[1]: Leaving directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_7e803/fast"]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_7e803.dir/build.make CMakeFiles/cmTC_7e803.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_7e803.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpif90     -c /Applications/CMake.app/Contents/share/cmake-3.4/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_7e803.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTC_7e803]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e803.dir/link.txt --verbose=1]
+  ignore line: [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpif90    -v -Wl,-v   CMakeFiles/cmTC_7e803.dir/CMakeFortranCompilerABI.F.o  -o cmTC_7e803   ]
+  ignore line: [Driving: /usr/local/bin/gfortran -v -Wl,-v CMakeFiles/cmTC_7e803.dir/CMakeFortranCompilerABI.F.o -o cmTC_7e803 -I/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/include -Wl,-flat_namespace -Wl,-commons,use_dylibs -I/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -mmacosx-version-min=10.11.6 -l gfortran -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-apple-darwin15.5.0]
+  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin15.5.0 --prefix=/usr/local/Cellar/gcc/6.1.0 --libdir=/usr/local/Cellar/gcc/6.1.0/lib/gcc/6 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-6 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 6.1.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --enable-plugin --disable-nls --enable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.1.0 (Homebrew gcc 6.1.0) ]
+  ignore line: [Reading specs from /usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../../libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7e803' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/include' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-mmacosx-version-min=10.11.6' '-shared-libgcc' '-mtune=core2']
+  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/:/usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/:/usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/:/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/:/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/]
+  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/:/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7e803' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/include' '-I' '/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib' '-mmacosx-version-min=10.11.6' '-shared-libgcc' '-mtune=core2']
+  link line: [ /usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o cmTC_7e803 -L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -L/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0 -L/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../.. -v CMakeFiles/cmTC_7e803.dir/CMakeFortranCompilerABI.F.o -flat_namespace -commons use_dylibs -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v]
+    arg [/usr/local/Cellar/gcc/6.1.0/libexec/gcc/x86_64-apple-darwin15.5.0/6.1.0/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.6] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7e803] ==> ignore
+    arg [-L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib] ==> dir [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib]
+    arg [-L/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0] ==> dir [/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0]
+    arg [-L/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../..] ==> dir [/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../..]
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_7e803.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-flat_namespace] ==> ignore
+    arg [-commons] ==> ignore
+    arg [use_dylibs] ==> ignore
+    arg [-lmpi_usempif08] ==> lib [mpi_usempif08]
+    arg [-lmpi_usempi_ignore_tkr] ==> lib [mpi_usempi_ignore_tkr]
+    arg [-lmpi_mpifh] ==> lib [mpi_mpifh]
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-v] ==> ignore
+  Library search paths: [;/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib;/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0;/usr/local/Cellar/gcc/6.1.0/lib/gcc/6;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [gcc_ext.10.5]
+  remove lib [gcc]
+  remove lib [gcc_ext.10.5]
+  remove lib [gcc]
+  remove lib [System]
+  collapse library dir [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib] ==> [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib]
+  collapse library dir [/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0] ==> [/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0]
+  collapse library dir [/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0/../../..] ==> [/usr/local/Cellar/gcc/6.1.0/lib/gcc/6]
+  collapse library dir [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib] ==> [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib]
+  collapse library dir [/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0] ==> [/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0]
+  collapse library dir [/usr/local/Cellar/gcc/6.1.0/lib/gcc/6] ==> [/usr/local/Cellar/gcc/6.1.0/lib/gcc/6]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [mpi_usempif08;mpi_usempi_ignore_tkr;mpi_mpifh;mpi;gfortran;quadmath;m]
+  implicit dirs: [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib;/usr/local/Cellar/gcc/6.1.0/lib/gcc/6/gcc/x86_64-apple-darwin15.5.0/6.1.0;/usr/local/Cellar/gcc/6.1.0/lib/gcc/6;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_5d3d1/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_5d3d1.dir/build.make CMakeFiles/cmTC_5d3d1.dir/build
+gmake[1]: Entering directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_5d3d1.dir/testFortranCompilerF90.f90.o
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpif90     -c /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_5d3d1.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_5d3d1
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d3d1.dir/link.txt --verbose=1
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpif90       CMakeFiles/cmTC_5d3d1.dir/testFortranCompilerF90.f90.o  -o cmTC_5d3d1  
+gmake[1]: Leaving directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/Fortran/CMakeFiles/CMakeTmp'
+
+

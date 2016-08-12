@@ -1,0 +1,165 @@
+The system is: Darwin - 15.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpicc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/3.4.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_c98de/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_c98de.dir/build.make CMakeFiles/cmTC_c98de.dir/build
+gmake[1]: Entering directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c98de.dir/testCCompiler.c.o
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpicc     -o CMakeFiles/cmTC_c98de.dir/testCCompiler.c.o   -c /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c98de
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c98de.dir/link.txt --verbose=1
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpicc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c98de.dir/testCCompiler.c.o  -o cmTC_c98de  
+gmake[1]: Leaving directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_604ea/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_604ea.dir/build.make CMakeFiles/cmTC_604ea.dir/build
+gmake[1]: Entering directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_604ea.dir/CMakeCCompilerABI.c.o
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpicc     -o CMakeFiles/cmTC_604ea.dir/CMakeCCompilerABI.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.4/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_604ea
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_604ea.dir/link.txt --verbose=1
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpicc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_604ea.dir/CMakeCCompilerABI.c.o  -o cmTC_604ea   
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_604ea -L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_604ea.dir/CMakeCCompilerABI.c.o -lmpi -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-264.3.102
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+gmake[1]: Leaving directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_604ea/fast"]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_604ea.dir/build.make CMakeFiles/cmTC_604ea.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_604ea.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpicc     -o CMakeFiles/cmTC_604ea.dir/CMakeCCompilerABI.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.4/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_604ea]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_604ea.dir/link.txt --verbose=1]
+  ignore line: [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpicc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_604ea.dir/CMakeCCompilerABI.c.o  -o cmTC_604ea   ]
+  ignore line: [Apple LLVM version 7.3.0 (clang-703.0.31)]
+  ignore line: [Target: x86_64-apple-darwin15.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_604ea -L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_604ea.dir/CMakeCCompilerABI.c.o -lmpi -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_604ea] ==> ignore
+    arg [-L/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib] ==> dir [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_604ea.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib] ==> [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib]
+  collapse library dir [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib] ==> [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [mpi;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/lib;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_38491/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_38491.dir/build.make CMakeFiles/cmTC_38491.dir/build
+gmake[1]: Entering directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38491.dir/feature_tests.c.o
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpicc    -std=c11 -o CMakeFiles/cmTC_38491.dir/feature_tests.c.o   -c /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/feature_tests.c
+Linking C executable cmTC_38491
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38491.dir/link.txt --verbose=1
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpicc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_38491.dir/feature_tests.c.o  -o cmTC_38491  
+gmake[1]: Leaving directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_879c1/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_879c1.dir/build.make CMakeFiles/cmTC_879c1.dir/build
+gmake[1]: Entering directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_879c1.dir/feature_tests.c.o
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpicc    -std=c99 -o CMakeFiles/cmTC_879c1.dir/feature_tests.c.o   -c /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/feature_tests.c
+Linking C executable cmTC_879c1
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_879c1.dir/link.txt --verbose=1
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpicc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_879c1.dir/feature_tests.c.o  -o cmTC_879c1  
+gmake[1]: Leaving directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_3eb39/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_3eb39.dir/build.make CMakeFiles/cmTC_3eb39.dir/build
+gmake[1]: Entering directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3eb39.dir/feature_tests.c.o
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpicc    -std=c90 -o CMakeFiles/cmTC_3eb39.dir/feature_tests.c.o   -c /Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3eb39
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eb39.dir/link.txt --verbose=1
+/Users/vrajagopal/opencmiss/install/x86_64_darwin/clang-7.3-F6.1/mpi/openmpi/debug/bin/mpicc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3eb39.dir/feature_tests.c.o  -o cmTC_3eb39  
+gmake[1]: Leaving directory '/Users/vrajagopal/Documents/cell_migration/sims/opencmiss/Micropipette/build/mpi_verification/C/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
